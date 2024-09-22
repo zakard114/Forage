@@ -1,0 +1,17 @@
+
+
+
+Mock Company Application Codebase
+https://github.com/papiocloudsoftware/mock-company-webapp/archive/refs/heads/search-task.zip
+
+Java Tutorial Go to website
+https://www.tutorialspoint.com/java/index.htm
+
+Spring Boot Web Development
+https://docs.spring.io/spring-boot/index.html
+
+Spock Unit Testing
+https://spockframework.org/spock/docs/2.0/spock_primer.html
+
+Gradle Builds
+https://docs.gradle.org/current/userguide/userguide.html

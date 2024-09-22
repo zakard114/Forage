@@ -1,0 +1,93 @@
+
+Mock Company Application Codebase
+https://github.com/papiocloudsoftware/mock-company-webapp/
+
+Git Setup Instructions
+https://docs.github.com/en/github/getting-started-with-github/quickstart/set-up-git
+
+Jenkins
+https://jenkins.io/
+
+Jenkins for GitHub App
+https://github.com/marketplace/papio-pipelines
+
+Jenkinsfile Reference
+https://www.jenkins.io/doc/book/pipeline/syntax/#declarative-steps
+
+Simulate Jenkins for Github App
+https://github.com/jenkinsci/jenkinsfile-runner-github-actions#how-to-use-the-action 
+
+Continuous Integration
+https://en.wikipedia.org/wiki/Continuous_integration
+
+
+==
+
+좋아요! 이제 Continuous Integration (CI) 작업을 시작해보겠습니다. 이 작업에서는 Jenkins를 사용하여 코드 변경 시 자동으로 빌드하고 테스트하는 환경을 구축할 것입니다. 아래에 작업을 단계별로 정리해 보았습니다.
+
+1. GitHub 계정 생성 및 리포지토리 포크
+GitHub 계정 생성: GitHub에 계정이 없다면 먼저 계정을 생성하세요.
+리포지토리 포크: 제공된 mock-company-webapp 리포지토리를 자신의 GitHub 계정으로 포크하세요. 이는 해당 리포지토리를 복사하여 개인 작업을 위한 공간을 만드는 것입니다.
+2. Git CLI 설정 및 리포지토리 클론
+Git CLI 설치 및 설정: Git이 설치되어 있지 않다면 Git을 설치하고 설정하세요.
+리포지토리 클론: 포크한 리포지토리를 자신의 워크스테이션에 클론합니다.
+bash
+코드 복사
+git clone https://github.com/your-username/mock-company-webapp.git
+3. Jenkins 설정 및 Jenkinsfile 작성
+Jenkins Cloud Instance 설정: GitHub 마켓플레이스에서 Pipelines 애플리케이션을 설치하여 Jenkins를 사용할 수 있도록 설정합니다. 또는, GitHub 워크플로우에서 Jenkinsfile Runner Action을 사용해 Jenkins를 시뮬레이션할 수 있습니다.
+Jenkinsfile 작성: 프로젝트 루트 디렉토리에 Jenkinsfile이라는 파일을 생성하고, 아래와 같이 작성합니다.
+groovy
+코드 복사
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                sh './gradlew assemble'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh './gradlew test'
+            }
+        }
+    }
+}
+Jenkinsfile 테스트: Jenkinsfile을 작성한 후, GitHub에 푸시하고 Jenkins가 정상적으로 빌드와 테스트를 수행하는지 확인하세요. 빌드가 성공할 때까지 Jenkinsfile을 조정하세요.
+4. 코드 변경 및 빌드 실패 유도
+코드 변경: SearchService 클래스에서 Collections.emptyList()를 반환하도록 변경합니다. 이로 인해 테스트가 실패하게 됩니다.
+
+예:
+
+java
+코드 복사
+public List<ProductItem> search(String query) {
+    return Collections.emptyList();
+}
+변경 사항 커밋 및 푸시: 변경한 코드를 커밋하고 푸시하여 CI 빌드를 유도하세요.
+
+bash
+코드 복사
+git add .
+git commit -m "Break the test by returning an empty list"
+git push origin main
+빌드 실패 확인: Jenkins가 빌드와 테스트를 수행하여 실패하는지 확인하세요. 이는 CI가 올바르게 설정되었음을 의미합니다.
+
+5. Jenkinsfile 업로드 또는 링크 제출
+Jenkinsfile을 작성한 후, 제공된 인터페이스에 파일을 업로드하거나 포크한 리포지토리의 링크를 제공하세요.
+이제 각 단계에 따라 작업을 수행하면 됩니다. 중간에 질문이 있거나 도움이 필요하면 언제든지 알려주세요! 😊
+
+
+==
+드라이브 디렉토리 변경
+HP EliteBook@DESKTOP-S8AKIBU MINGW64 /E/IT_SPACES
+$ cd /E/IT_SPACES/AutoProject/Forage/Accenture/STEP3
+
+HP EliteBook@DESKTOP-S8AKIBU MINGW64 /E/IT_SPACES/AutoProject/Forage/Accenture/STEP3
+
+클론
+HP EliteBook@DESKTOP-S8AKIBU MINGW64 /E/IT_SPACES/AutoProject/Forage/Accenture/STEP3
+$ git clone https://github.com/zakard114/mock-company-webapp.git
+

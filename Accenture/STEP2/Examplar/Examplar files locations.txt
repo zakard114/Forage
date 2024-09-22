@@ -1,0 +1,11 @@
+
+Model Answer: SearchController.java
+https://cdn.theforage.com/vinternships/companyassets/T6kdcdKSTfg2aotxT/MsAqi7SNLKw3C6LAr/1624377437131/SearchController(1).java
+ 
+
+Model Answer: SearchService.java
+https://cdn.theforage.com/vinternships/companyassets/T6kdcdKSTfg2aotxT/MsAqi7SNLKw3C6LAr/1624377453533/SearchService(1).java
+ 
+
+Model Answer: ReportController.java
+https://cdn.theforage.com/vinternships/companyassets/T6kdcdKSTfg2aotxT/MsAqi7SNLKw3C6LAr/1624377471252/ReportController(1).java

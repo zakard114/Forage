@@ -1,0 +1,59 @@
+
+Step4
+
+여기 당신의 과제가 있습니다
+이 프로그램을 진행하는 동안 직원 데이터를 관리하고 직원 요청을 위한 HTTP GET 요청과 직원을 추가하기 위한 HTTP POST 요청을 지원하는 웹 서버 애플리케이션을 구축했습니다. 하지만 아직 작업이 끝난 것은 아닙니다! 이제 관리자가 웹 서버 애플리케이션에 대한 단위 테스트를 작성하라고 요청했습니다. 그들은 Mockito 또는 JUnit 프레임워크를 사용할 수 있다고 말합니다.
+
+테스트 세트를 개발했으면 애플리케이션을 다시 빌드하고 테스트를 실행하여 애플리케이션의 성능을 평가할 수 있습니다. 모든 테스트가 예상대로 작동하는지 확인해야 합니다. 테스트 중에 애플리케이션에 문제가 있는 경우 애플리케이션 자체에서 필요한 조정을 해야 합니다.
+
+이 작업을 마치면 애플리케이션이 의도한 대로 작동하는지 확인하는 데 사용할 수 있는 일련의 작동하는 단위 테스트를 만들게 됩니다. Mockito 및 JUnit 프레임워크로 단위 테스트를 작성하는 방법에 대한 자세한 내용은 아래의 리소스 섹션을 검토할 수 있습니다.
+
+작업을 완료하려면 아래 단계를 따르세요.
+
+1단계 : 아래 리소스 섹션에서 Java Spring Boot에 대한 단위 테스트를 구현하는 방법을 설명하는 웹 페이지를 검토해 보세요.
+
+2단계 : 애플리케이션에서 테스트하고 싶은 기능을 고려하세요. 직원을 추가하고 직원에게 쿼리하는 프로세스를 개별 단위 테스트로 어떻게 분해할 수 있습니까?
+
+3단계 : 선택한 기술을 사용하여 단위 테스트 작성을 시작합니다. Mockito 또는 JUnit을 사용하여 테스트를 작성할 수 있습니다.
+
+4단계 : 단위 테스트 작성을 마치면 프로젝트를 다시 빌드하고 실행합니다. 모두 통과하나요?
+
+5단계 : 모든 테스트가 통과하지 못하면 문제의 근원을 찾아보세요. 테스트 자체의 문제인가요 아니면 기본 애플리케이션의 문제인가요? 모든 테스트가 통과할 때까지 필요에 따라 변경하세요.
+
+6단계 : 모든 테스트가 통과되면 테스트 파일이 포함된 zip 파일을 제출합니다. 이것이 이 작업의 납품물이 됩니다.
+
+
+다음은 도움이 되는 몇 가지 리소스입니다.
+
+Unit Testing in Spring Boot Project using Mockito and Junit
+https://www.geeksforgeeks.org/unit-testing-in-spring-boot-project-using-mockito-and-junit/
+
+Guide to Unit Testing Spring Boot REST APIs
+https://stackabuse.com/guide-to-unit-testing-spring-boot-rest-apis/
+
+How to download and upload files with Spring Boot REST API
+https://devwithus.com/download-upload-files-with-spring-boot/
+
+==
+
+
+Here is your task
+Over the course of this program, you’ve built a web server application that manages employee data and supports HTTP GET requests for requesting employees, as well as HTTP POST requests for adding employees. Your work isn’t quite done yet, though! Now, your manager has asked that you write some unit tests for your web server application. They tell you that you can either use the Mockito or JUnit frameworks.
+
+Once you’ve developed a set of tests, you can then rebuild your application and run the tests to assess your application’s performance. You should ensure that all your tests work as expected. If you identify any issues with your application during testing, you should make the necessary adjustments in the application itself.
+
+At the end of this task, you’ll have created a set of working unit tests that can be used to check that your application is working as intended. For more information about how to write unit tests with the Mockito and JUnit frameworks, you can review the Resources section below.
+
+To complete the task, follow the steps below:
+
+Step 1: Begin by reviewing the web pages in the Resources section below that discuss how to implement unit tests for Java Spring Boot.
+
+Step 2: In your application, consider the functionalities that you’d like to test. How can you break down the process of adding employees and querying employees into individual unit tests?
+
+Step 3: Begin writing your unit tests using the technology of your choice. You can use either Mockito or JUnit to write your tests.
+
+Step 4: Once you’ve finished writing your unit tests, rebuild your project and run them. Do they all pass?
+
+Step 5: If your tests do not all pass, try to find the root of the problem. Is it an issue with the test itself or with your base application? Make changes as needed until all your tests pass.
+
+Step 6: Once all of your tests have passed, submit a zip file containing your test files. This will be your deliverable for this task.

@@ -1,0 +1,36 @@
+
+STEP2
+
+Mock Company Application Codebase
+https://github.com/papiocloudsoftware/mock-company-webapp/archive/refs/heads/refactor-task.zip
+
+SpringBoot Service Tutorial
+https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm
+
+Code Refactoring
+https://en.wikipedia.org/wiki/Code_refactoring
+ 
+Spock Unit Testing
+https://spockframework.org/spock/docs/2.0/spock_primer.html
+ 
+Gradle Builds
+https://docs.gradle.org/
+
+
+==
+Step1
+
+Mock Company Application Codebase
+https://github.com/papiocloudsoftware/mock-company-webapp/archive/refs/heads/search-task.zip
+
+Java Tutorial Go to website
+https://www.tutorialspoint.com/java/index.htm
+
+Spring Boot Web Development
+https://docs.spring.io/spring-boot/index.html
+
+Spock Unit Testing
+https://spockframework.org/spock/docs/2.0/spock_primer.html
+
+Gradle Builds
+https://docs.gradle.org/current/userguide/userguide.html

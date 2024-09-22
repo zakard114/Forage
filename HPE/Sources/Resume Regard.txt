@@ -1,0 +1,70 @@
+이력서 스니펫
+
+최신 이력서를 작성하여 지원하세요.일자리 ,프로그램들 ,이벤트  그리고 인재 네트워크 .
+Hewlett Packard Enterprise 소프트웨어 엔지니어링 직무 시뮬레이션 on Forage - 2024년 8월
+직원 목록을 관리하는 RESTful 웹 서비스에 대한 제안을 작성했습니다.
+HTTP 요청을 수락하고 응답하며 JSON 데이터 업로드를 지원할 수 있는 Java Spring Boot로 웹 서버 애플리케이션을 구축했습니다.
+Java Spring Boot 애플리케이션의 성능을 평가하기 위해 일련의 단위 테스트를 개발하고 실행했습니다.
+여기에서 이력서 가이드를 사용하세요
+https://www.theforage.com/virtual-experience/da2T3WZCbMAJD7bNB/hewlett-packard-enterprise/software-engineering-pcij/finish-line
+
+이력서 가이드:
+https://www.canva.com/design/DAFl7ChBdDM/MXZ3Zt4NE0vnUssENp5E3g/view?utm_content=DAFl7ChBdDM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=GI3o8IbcOQ#1
+
+--
+
+인터뷰 팁
+일반적인 면접에서는 "왜 이 직책에 관심이 있나요?" 또는 "왜 우리 회사에서 일하고 싶은가요?"라는 질문을 받게 됩니다. 이 면접 팁을 사용하여 왜 그 직업을 원하는지 설명하세요.
+“이 역할에 관심이 있는 이유는 무엇입니까?”
+저는 최근 Forage에서 Hewlett Packard Enterprise의 소프트웨어 엔지니어링 직무 시뮬레이션에 참여했습니다. Java Spring Boot에서 웹 서버 애플리케이션을 빌드하고 성능을 평가하기 위한 단위 테스트를 개발하여 백엔드 엔지니어로 일하는 것이 어떤 것인지 실제로 느꼈습니다.
+웹 서버 애플리케이션을 처음부터 끝까지 작업할 수 있는 기회를 얻은 덕분에 백엔드 엔지니어로 일하는 것을 정말 즐기고 프로젝트를 완료하는 것을 좋아한다는 것을 깨달았습니다. 이 시뮬레이션에서 배운 내용을 Hewlett Packard Enterprise의 소프트웨어 엔지니어링 팀에 적용하고 싶습니다.
+https://www.theforage.com/virtual-experience/da2T3WZCbMAJD7bNB/hewlett-packard-enterprise/software-engineering-pcij/finish-line
+
+
+자격증을 받기 전에, 여러분께 몇 가지 마지막 질문을 드리겠습니다!
+이제 Hewlett Packard Enterprise 소프트웨어 엔지니어링 프로그램을 완료했으므로 Hewlett Packard Enterprise가 무엇이고 어떤 일을 하는지 잘 이해하게 되었습니다.
+
+강력히 동의합니다
+
+여기를 클릭하여 귀하의 데이터가 어떻게 공유되는지 알아보세요.
+https://eab.app.box.com/s/neyoot6ew6xcsr69g8j2gmbhvtexh5yq
+
+이제 Hewlett Packard Enterprise 소프트웨어 엔지니어링 프로그램을 마쳤으므로 Hewlett Packard Enterprise에서 어떤 유형의 일을 할지에 대해 더 자신감이 생겼습니다.
+
+강력히 동의합니다
+
+
+이제 Hewlett Packard Enterprise 소프트웨어 엔지니어링 프로그램을 마쳤으므로 Hewlett Packard Enterprise에 지원할 가능성이 더 높아졌습니다.
+
+강력히 동의합니다
+
+
+Hewlett Packard Enterprise 소프트웨어 엔지니어링 프로그램을 이수하면서 실무 기술을 개발할 수 있었습니다.
+
+강력히 동의합니다
+
+
+
+후기
+What did you like about the program? (Optional)
+Your answer might be featured in Hewlett Packard Enterprise’s Job Simulation homepage.
+> I enjoyed everything about it. I really enjoyed this event and felt that I would be happy if I could do this kind of work every day.
+
+What can we improve? (Optional)
+Your answer will only be seen by Forage to help improve the program for future students.
+> Starting from the second task, I found the instructions more complicated than the tasks themselves, especially the setup parts. Those who are not familiar with the CLI console might struggle. Based on my previous experience with Forage's advanced engineering job simulations, the difficulty of Forage's instructions tends to be on the higher side. I personally felt that this is an area that could use improvement.
+
+
+
+One last thing to make you stand out!
+Would you like to express your interest in working at Hewlett Packard Enterprise
+
+Yes, I'd love to!
+
+No, I'm not interested.
+
+당신을 돋보이게 할 마지막 것!
+Hewlett Packard Enterprise에서 근무하고 싶은지 의사를 표시하시겠습니까?
+
+네, 정말 그러고 싶어요!
+

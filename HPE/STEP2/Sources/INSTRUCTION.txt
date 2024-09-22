@@ -1,0 +1,123 @@
+
+Step2
+
+여기 당신의 과제가 있습니다
+작업을 완료하려면 아래 단계를 따르세요.
+
+1단계 : 아래 리소스 섹션의 RESTful 웹 서비스 구축 페이지를 검토하여 시작합니다 . 여기에는 기본적인 "hello world" 웹 서비스를 만드는 방법에 대한 튜토리얼이 제공되어 위의 요구 사항을 충족할 수 있습니다. 그런 다음 Java Spring Boot를 사용하여 REST API를 만드는 방법을 검토하여 사람 목록을 관리하는 웹 서비스를 구축하는 더 복잡한 예를 제공합니다.
+
+2단계 : 위 가이드의 소스 저장소를 다운로드하는 것으로 시작합니다 . 소스 저장소는 아래 리소스 섹션에도 포함되어 있습니다.
+
+3단계 : employee_id, first_name, last_name, email, title에 대한 개인 변수를 포함하는 Employee에 대한 리소스 클래스를 만듭니다. 또한 각 변수에 대한 getter 함수를 포함합니다.
+
+4단계 : Employees라는 리소스 클래스를 만듭니다. 이 클래스는 직원 목록을 유지 관리하고 직원 목록을 가져오고 설정하는 것을 지원해야 합니다.
+
+5단계 : Employees 클래스를 초기화하는 EmployeeManager라는 클래스를 만듭니다. 이 클래스는 3-4개의 예시 직원을 하드 코딩해야 하는 곳입니다.
+
+6단계 : http://localhost:8080/employees 에서 HTTP GET 요청을 지원하는 리소스 컨트롤러를 추가합니다 . 이렇게 하면 모든 사용자 데이터가 반환됩니다.
+
+7단계 : 애플리케이션의 실행 가능한 버전을 빌드한 다음 실행 파일을 실행합니다.
+
+8단계 : http://localhost:8080/employees 로 HTTP GET 요청을 보내서 애플리케이션이 예상대로 작동하는지 테스트합니다.
+
+9단계 : 애플리케이션이 예상대로 작동하면 핵심 애플리케이션 파일이 포함된 zip 파일을 제출합니다. 여기에는 Employee.java, Employees.java, EmployeeController.java, EmployeeManager.java, RestServiceApplication.java가 포함되어야 합니다. 
+
+다음 단계에서는 예시 답변을 보여드리겠습니다! 
+
+ 
+
+
+
+
+
+
+
+===
+
+몇 가지 배경 정보
+첫 번째 과제에서 관리자는 Java Spring Boot를 사용하여 직원 목록을 관리하는 RESTful 웹 서비스를 만드는 방법을 알아보라고 했습니다. 
+
+이 작업에서는 해당 서비스의 기본을 구축하기 시작합니다. HTTP GET 요청을 http://localhost:8080/employees 로 보내서 쿼리할 수 있는 시스템을 만듭니다 . 서비스는 시스템의 모든 직원 목록을 포함하여 JSON 표현으로 이 요청에 응답해야 합니다. 이는 다음 형식과 일치해야 합니다.
+
+{
+
+    “Employees: [
+
+         {
+
+             “employee_id”: “string”,
+
+             “first_name”: “string”,
+
+             “last_name”: “string”,
+
+             “email”: “string”,
+
+             “title”: “string”
+
+         },
+
+             “employee_id”: “string”,
+
+             “first_name”: “string”,
+
+             “last_name”: “string”,
+
+             “email”: “string”,
+
+             “title”: “string”
+
+         {
+
+             “employee_id”: “string”,
+
+             “first_name”: “string”,
+
+             “last_name”: “string”,
+
+             “email”: “string”,
+
+             “title”: “string”
+
+         }
+
+    ]
+
+}
+
+시스템에는 다음 구성 요소가 포함되어야 합니다.
+
+first_name, last_name, employee_id, email, title 필드에 대한 개인 변수와 각 변수에 대한 getter 함수를 포함하는 Employee 클래스입니다.
+전체 직원 목록을 관리하는 Employees 클래스입니다.
+사용자가 사용자 데이터의 전체 목록을 요청할 수 있도록 해주는 컨트롤러 클래스입니다.
+
+이 작업의 경우 직원 목록을 시스템에 하드 코딩할 수 있습니다. 시스템은 새 직원을 추가하라는 요청을 지원할 필요가 없습니다. 이 작업이 끝나면 직원 데이터를 쿼리할 수 있는 기본 웹 서비스를 만들게 됩니다. Java Spring Boot 및 RESTful 개발에 대한 자세한 내용은 아래 리소스 섹션을 검토하세요.
+
+계속해서 무엇을 해야 하는지 설명해 드리겠습니다!
+
+
+다음은 도움이 되는 몇 가지 리소스입니다.
+
+
+
+
+
+Gradle 설치
+웹사이트를 보려면 클릭하세요 → https://gradle.org/install/
+ 
+
+RESTful 웹 서비스 구축
+웹사이트를 보려면 클릭하세요 → https://spring.io/guides/gs/rest-service
+ 
+
+Java Spring Boot를 사용하여 REST API를 만드는 방법
+웹사이트를 보려면 클릭하세요 → https://www.geeksforgeeks.org/how-to-create-a-rest-api-using-java-spring-boot/
+ 
+
+gs-rest-service를 위한 GitHub
+웹사이트를 보려면 클릭하세요 → https://github.com/spring-guides/gs-rest-service
+ 
+
+
+
+
