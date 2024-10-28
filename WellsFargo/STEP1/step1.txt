@@ -1,0 +1,93 @@
+The system will help manage multiple financial advisors’ clients.
+
+Financial advisors must be able to create, update, and remove clients.
+Each financial advisor can have numerous clients.
+
+Financial advisors will be using the system during standard business hours from 9 to 5 on weekdays.
+Each client will have a portfolio.
+Client portfolios may contain zero or more securities.
+Financial advisors must be able to create, update, and remove securities from client portfolios.
+The system must have 99% uptime.
+The system must expose a React dashboard.
+The system’s backend must use the Spring framework for Java.
+The system must store data in a relational database.
+
+--
+
+The system - must have 99% uptime.
+     	   - must expose a React dashboard.
+	   - The system’s backend must use the Spring framework for Java.
+	   - must store data in a relational database.
+	  
+
+
+multiple financial advisors - create, update, and remove clients
+			    - using the system during standard business 			      hours from 9 to 5 on weekdays. 
+ 			    - create, update, and remove securities from 	    - client portfolios.
+  			    v
+
+
+Each financial advisors - has numerous clients - v
+
+Each client - has portfolio that may contain zero or more securities
+Every security - has a name, a category, a purchase date, a purchase 			 price, and a quantity.
+Portfolios 
+
+--
+
+Financial Advisor:
+ID (Primary Key)
+Name
+Contact Information (Email, Phone Number)
+Client:
+ID (Primary Key)
+Name
+Date of Birth
+Contact Information (Email, Phone Number)
+Financial Advisor ID (Foreign Key)
+Portfolio:
+ID (Primary Key)
+Client ID (Foreign Key)
+Total Asset Value (calculated or tracked)
+Security:
+ID (Primary Key)
+Portfolio ID (Foreign Key)
+Name
+Category (e.g., stocks, bonds, etc.)
+Purchase Date
+Purchase Price
+Quantity
+
+--
+
+Advisor ↔ Client: Mandatory One ↔ Optional Many
+
+An advisor must manage at least one client, but a client can exist without being associated with an advisor.
+Client ↔ Portfolio: Mandatory One ↔ Optional One
+
+A client must have a portfolio, but a portfolio can exist without being tied to a client.
+Portfolio ↔ Security: Mandatory One ↔ Optional Many
+
+A portfolio must have at least one security, but it’s possible for a portfolio to have no securities.
+
+
+
+~~
+
+Sources
+
+draw.io ERD 테이블 행 추가
+draw.io에서 ERD 테이블에서 행을 추가하고 싶다면 추가하고 싶은 위치의 바로 위행에서 Ctrl+Enter키를 눌러주면 된다.
+https://computer-science-student.tistory.com/345
+
+ERD 다이어그램 그리는 방법
+https://nbcamp.spartacodingclub.kr/blog/erd-%EA%B0%9C%EC%B2%B4-%EA%B4%80%EA%B3%84-%EC%9D%B4%ED%95%B4%EB%A5%BC-%EB%8F%95%EB%8A%94-%ED%8C%81-19137
+
+https://m.blog.naver.com/choisboom/222154519151
+
+
+color char(50) NOT NULL
+size int NOT NULL
+care_instructions char(50) NOT NULL
+
+
